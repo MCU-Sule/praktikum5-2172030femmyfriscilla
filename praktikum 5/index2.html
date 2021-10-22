@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="2172030 Femmy Friscilla Susilo">
+    <title>index 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(asset/background.jpg);
+            font-family: 'Nunito', sans-serif;
+        }
+        form{
+            background-color: rgba(178, 190, 195,0.8);
+            width: 28%; height: 730px;
+            margin: auto;
+            font-size: 1em;
+            padding-left: 40px;
+            padding-top: 15px;
+            line-height: 28px;
+        }
+        p{
+            text-align: center;
+            font-size: 2em;
+            color: white;
+        }
+        #okei{
+            background-color: rgb(84, 197, 113);
+            width: 80%; 
+            height: 40px;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        input[type="text"]{
+            width: 11cm;
+        }
+        input[type="date"]{
+            width: 420px;
+        }
+        select{
+            width: 425px;
+        }
+    </style>
+    <!--zoom 90% di browser pada 15,6"-->
+</head>
+<body>
+    <p> Fill in this form</p>
+    <form action="" name="form">
+            Full Name : <br>
+            <input type="text" name="full name"><br>
+            Email: <br>
+            <input type="text" name="e-mail"><br>
+            Age:<br>
+            <input type="text" name="umur"><br>
+            Gender : <br>
+            <select name="select your gender" id="">
+                <option>Select you gender</option>
+                <option value="laki">laki-laki</option>
+                <option value="perempuan">perempuan</option>
+            </select><br>
+            Date of birth :<br>
+            <input type="date" name="tanggal lahir"><br>
+            Choose your laptop:<br>
+            <div>
+            <select name="Laptop" >
+                <option>Laptop</option>
+                <optgroup label="Asus">
+                    <option value="1">Laptop Asus A456UQ</option>
+                    <option value="2">Laptop Asus E410MA</option>
+                    <option value="3">Laptop Asus Vivobook K403FA</option>
+                    <option value="4">Laptop Asus BR1100CKA-GJ0410</option>
+                </optgroup>
+                <optgroup label="Lenovo">
+                    <option value="5">Laptop Lenovo ideapad S340</option>
+                    <option value="6">Laptop Lenovo ideapad slim 3</option>
+                    <option value="7">Laptop lenovo T440p</option>
+                </optgroup>
+            </select><br>
+            Enter your card number:<br>
+            <input type="text" name="card number"><br>
+            Payment:<br>
+            <input type="radio" value="1x" name="payment">1x<br>
+            <input type="radio" value="3x" name="payment">3x<br>
+            <input type="radio" value="6x" name="payment">6x<br>
+            <input type="radio" value="12x" name="payment">12x<br>
+            Which brand do you like:<br>
+            <input type="checkbox" value="asus" name="a">Asus<br>
+            <input type="checkbox" value="lenovo" name="b">Lenovo<br>
+            <input type="checkbox" value="acer" name="c">Acer<br>
+            <input type="checkbox" value="HP" name="d">HP<br>
+        <button id="okei">Submit</button>
+    </form>
+</body>
+</html>
